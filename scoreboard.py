@@ -1,5 +1,6 @@
 from turtle import Turtle
 
+#CONSTANS
 ALIGMENT = "center"
 FONT = ("Arial", 24, "normal")
 
