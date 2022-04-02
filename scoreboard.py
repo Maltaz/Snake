@@ -25,6 +25,7 @@ class Scoreboard(Turtle):
 
     def reset(self):
         """Docstring"""
+
         if self.score > self.high_score:
             self.high_score = self.score
             with open("data.txt", mode="w") as data:
@@ -34,6 +35,7 @@ class Scoreboard(Turtle):
 
     def increase(self):
         """Docstring"""
+
         self.score += 1
         self.clear()
         self.update_scoreboard()
